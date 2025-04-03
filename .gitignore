@@ -1,0 +1,60 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*
+!.env.example
+
+
+# typescript
+*.tsbuildinfo
+
+# expo
+credentials.json
+expo-env.d.ts
+
+# Expo build artifacts
+ios/
+android/
+
+# Allow specific module files to be tracked
+!modules/native-audio-module/
+
+# Specifically include the necessary files within the module directory
+!modules/native-audio-module/android/
+!modules/native-audio-module/android/build.gradle
+!modules/native-audio-module/android/src/*
+modules/native-audio-module/android/build/
+
+!modules/native-audio-module/ios/
+!modules/native-audio-module/ios/NativeAudioModule.podspec
+!modules/native-audio-module/ios/NativeAudioModule.swift
+!modules/native-audio-module/ios/NativeAudioModuleView.swift
+modules/native-audio-module/ios/build/

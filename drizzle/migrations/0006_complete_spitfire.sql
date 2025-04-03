@@ -1,0 +1,1 @@
+ALTER TABLE `conversations` ADD `mode` text DEFAULT 'chat';

@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 5.9.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_ENV": "development",
+        "EXPO_PUBLIC_APP_VARIANT": "development",
+        "EXPO_PUBLIC_AUTH_GOOGLE_IOS_ID": "",
+        "EXPO_PUBLIC_AUTH_GOOGLE_WEB_ID": "",
+        "EXPO_PUBLIC_REVENUECAT_APPLE_API_KEY": "",
+        "EXPO_PUBLIC_REVENUECAT_GOOGLE_API_KEY": ""
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "",
+        "EXPO_PUBLIC_APP_ENV": "production",
+        "EXPO_PUBLIC_APP_VARIANT": "production",
+        "EXPO_PUBLIC_AUTH_GOOGLE_IOS_ID": "",
+        "EXPO_PUBLIC_AUTH_GOOGLE_WEB_ID": "",
+        "EXPO_PUBLIC_REVENUECAT_APPLE_API_KEY": "",
+        "EXPO_PUBLIC_REVENUECAT_GOOGLE_API_KEY": "",
+        "EXPO_PUBLIC_SENTRY_DSN": ""
+      }
+    },
+    "staging": {
+      "extends": "production",
+      "env": {
+        "EXPO_PUBLIC_APP_VARIANT": "staging",
+        "EXPO_PUBLIC_API_URL": "",
+        "EXPO_PUBLIC_AUTH_GOOGLE_IOS_ID": "",
+        "EXPO_PUBLIC_AUTH_GOOGLE_WEB_ID": "",
+        "EXPO_PUBLIC_REVENUECAT_APPLE_API_KEY": "",
+        "EXPO_PUBLIC_REVENUECAT_GOOGLE_API_KEY": ""
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

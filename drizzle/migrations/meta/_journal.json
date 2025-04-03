@@ -1,0 +1,69 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1716235804191,
+      "tag": "0000_hard_thunderball",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1717692480665,
+      "tag": "0001_lying_luckman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1718117911985,
+      "tag": "0002_cold_vargas",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1718301920175,
+      "tag": "0003_real_valkyrie",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1718308153694,
+      "tag": "0004_bright_morlocks",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1719536444796,
+      "tag": "0005_shallow_fallen_one",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1719890054183,
+      "tag": "0006_complete_spitfire",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1721912697528,
+      "tag": "0007_calm_marvel_boy",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1727881826800,
+      "tag": "0008_military_karen_page",
+      "breakpoints": true
+    }
+  ]
+}

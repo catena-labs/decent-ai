@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+
+#
+# Install dependencies
+#
+echo "✨ Installing dependencies ..."
+bun install --frozen-lockfile
+
+#
+# If we're not running on CI, perform additional setup
+#
+if [ -z "$CI" ]; then
+  #
+  # Create a .env.local file and popupate it with auto-generated secrets
+  #
+  if ! [ -f .env.local ]; then
+      echo "\n✨ Creating a .env.local file for local environment variables..."
+      touch .env.local
+
+      ./bin/ip
+  fi
+fi
+
+#
+# Done.
+#
+echo "\n🎉 All set. Happy coding!"

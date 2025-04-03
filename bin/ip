@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+touch .env.local
+
+#
+# Set the local IP address in .env.local
+#
+echo "✨ Setting the local IP address in .env.local ..."
+
+# Remove any existing lines that start with EXPO_PUBLIC_API_URL
+sed -i '' '/^EXPO_PUBLIC_API_URL/d' .env.local
+
+# Add the current IP address to .env.local
+echo "EXPO_PUBLIC_API_URL=\"http://$(ipconfig getifaddr en0):3000\"" >> .env.local

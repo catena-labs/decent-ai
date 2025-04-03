@@ -1,0 +1,1 @@
+ALTER TABLE `conversations` ADD `exclude_tools` text;

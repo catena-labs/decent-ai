@@ -1,0 +1,10 @@
+# Lockfiles
+pnpm-lock.yaml
+
+# build artifacts
+ios
+android
+
+google-services*.json
+
+drizzle/migrations/

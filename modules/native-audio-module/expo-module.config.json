@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "tvos", "android", "web"],
+  "ios": {
+    "modules": ["NativeAudioModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.nativeaudiomodule.NativeAudioModule"]
+  }
+}

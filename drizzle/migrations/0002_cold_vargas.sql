@@ -1,0 +1,1 @@
+ALTER TABLE `conversations` ADD `system_prompt` text;
